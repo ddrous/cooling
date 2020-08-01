@@ -1,0 +1,9 @@
+set termoption dash
+set title 'Modele stationnaire'
+set xlabel 'x (m)'
+set ylabel 'Temperature (^{\157}C)'
+set for [i=1:5] linetype i dt i
+# set yrange [44:64]
+plot 'data_stationnaire.csv' using 1:2 with line title 'Solution exacte du modele stationnaire', \
+'data_stationnaire.csv' using 1:3 with line title 'Solution numerique stationnaire'
+pause -1
