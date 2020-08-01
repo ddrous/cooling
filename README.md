@@ -1,7 +1,7 @@
 # Projet "cooling"
 Simulation numérique du dispositif de refroidissement d’un microprocesseur à l'aide de Gnuplot et Paraview.
 
-!(example)[/rapport/images/fig_20.png]
+![quelques images](/rapport/overview.png)
 
 ## Travail à effectuer et rapport
 - `projet.pdf`  
