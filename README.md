@@ -8,10 +8,10 @@ Simulation numérique du dispositif de refroidissement d’un microprocesseur à
 - `rapport/rapport_cooling.pdf`
 
 ## Compilation
-`g++ cooling.cpp stationnaire.cpp instationnaire.cpp -o cooling` (à partir du répertoire `src`)
+ À partir du répertoire `src`: **`g++ cooling.cpp stationnaire.cpp instationnaire.cpp -o cooling`**
 
 ## Execution
-`./src/cooling config_files/simu_1.cfg` (les fichier de configuration sont regroupés dans le répertoire `config_files`)
+Les fichier de configuration sont regroupés dans le répertoire `config_files`: **`./src/cooling config_files/simu_1.cfg`**
 
 ## Visualisation
 - La visulation avec Gnuplot se fait automatiquement (en supposant que Gnuplot est installé)
