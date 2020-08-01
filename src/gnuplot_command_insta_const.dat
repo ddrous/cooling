@@ -1,0 +1,12 @@
+set termoption dash
+set title 'Modele instationnaire avec flux de chaleur constant'
+set xlabel 'x (m)'
+set ylabel 'Temperature (^{\157}C)'
+set for [i=1:5] linetype i dt i
+plot 'data_instationnaire_const.csv' using 1:2 with line title 't = 15s', \
+'data_instationnaire_const.csv' using 1:3 with line title 't = 30s', \
+'data_instationnaire_const.csv' using 1:4 with line title 't = 60s', \
+'data_instationnaire_const.csv' using 1:5 with line title 't = 90s', \
+'data_instationnaire_const.csv' using 1:6 with line title 't = 150s', \
+'data_instationnaire_const.csv' using 1:7 with line title 't = 210s'
+pause -1
