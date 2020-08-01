@@ -1,8 +1,0 @@
-set termoption enhanced
-set title 'Modele instationnaire avec activation/desactivation du flux de chaleur'
-set xlabel 'Temps (s)'
-set ylabel 'Temperature (^{\157}C)'
-plot 'data_instationnaire_non_const.csv' using 1:2 with line title 'x_{0}', \
-'data_instationnaire_non_const.csv' using 1:3 with line title 'x_{M/2}', \
-'data_instationnaire_non_const.csv' using 1:4 with line title 'x_{M}'
-pause -1
